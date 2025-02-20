@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+
+.container {
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    position: fixed;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* height: 75%; */
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: inset -8px -4px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.form h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.form label {
+    color: white;
+    text-align: start;
+    width: 65%;
+    font-weight: 600;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.77);
+}
+
+.box {
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+.button_container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button_container button {
+    margin: 20px 0px;
+    padding: 10px 20px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset-3px -3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 1rem; 
+}
+.button_container button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container p {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: start;
+    width: 65%;
+
+}
