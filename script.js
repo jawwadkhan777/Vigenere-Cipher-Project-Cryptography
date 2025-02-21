@@ -62,7 +62,7 @@ function vigenereCipher(text, key, encrypt = true) {
         result += char;
       }
     } else {
-      const charIndex = alphabet.toLowerCase().indexOf(char);
+      const charIndex = alphabet.indexOf(char);
       if (charIndex !== -1) {
         const keyChar = key[keyIndex % key.length];
         console.log(keyChar);
